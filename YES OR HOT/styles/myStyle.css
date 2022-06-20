@@ -139,9 +139,10 @@ html, body, div, select, span, a, input, textarea, object, iframe, h2, h3, h4, h
         padding: 0.5vw 0vw;
     }
 
-    #insideshow iframe {
-        height: 15vh;
-    }
+#insideshow iframe {
+    width:40%;
+    height:15vw;
+}
 /*מיקומים - פוסטרים*/
     .poster {
         width: 12.75vw;
