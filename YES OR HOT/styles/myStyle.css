@@ -1,0 +1,422 @@
+﻿/*פונטים וטקסטים*/
+    @font-face {
+        font-family: 'Fredoka-Light';
+        src: url('../Fonts/Fredoka-Light.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'Fredoka-Regular';
+        src: url('../Fonts/Fredoka-Regular.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'Fredoka-Medium';
+        src: url('../Fonts/Fredoka-Medium.ttf') format('truetype');
+    }
+
+html, body, div, select, span, a, input, textarea, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    font-family: Fredoka-Regular, Tahoma, Arial !important;
+    color: white;
+}
+    textarea, input{
+        color:black;
+    }
+    h1 {
+        text-align: center;
+        font-size: x-large;
+        font-family: Fredoka-Medium, Tahoma, Arial !important;
+        color: white;
+    }
+    #mainImg .readMoreBut {
+        font-size: x-large;
+    }
+    #errorPage h1 {
+        font-size: 40vh;
+    }
+
+    #errorPage h2 {
+        font-size: 5vh;
+    }
+    #breadCrumbs a {
+        text-decoration: underline;
+    }
+    #PageMap a, #miniMap li {
+        color: white;
+        text-decoration: underline;
+    }
+/*מיקומים*/
+    body {
+        direction: rtl;
+        background-color: black;
+    }
+    .narroPageView {
+        margin: 0vw 10vw;
+    }
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+    h2 {
+        margin: 1vw 0vw;
+    }
+    h4{
+        font-weight:bold;
+        display:inline-block;
+        margin-bottom:0.5vh;
+    }
+    main {
+        padding-top: 5vw;
+    }
+    section {
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+    }
+    aside {
+        text-align: center;
+        margin: 2vw auto 0vw auto;
+    }
+    #miniMap li, .actorsList, .navTop, #PageMap, #PageMap li {
+        list-style: none;
+    }
+/*מיקומים - סרגל ניווט עליון*/
+    .navTop img {
+        height: 25px;
+        width: auto;
+        top: 12.5px;
+        position: relative;
+    }
+    #logoPading a {
+        padding: 0px;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid white;
+        background-color: black;
+        z-index: 2;
+    }
+    .navTop > li a {
+        padding: 3vh 0vh;
+        background-color: black;
+    }
+    #actorsInline {
+        height: 27vh;
+    }
+
+    .actorsList li {
+        margin: 0px 1vw;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .actorsList img, .topPersonalId img {
+        border-radius: 100%;
+        height: 6vw;
+        width: auto;
+        margin: 0.7vh auto;
+        transition: all 0.5s;
+    }
+
+    .narroPageView h1 {
+        text-align: right;
+    }
+
+    .actorsList img:hover, .actorsList a:focus-visible img {
+        height: 8vw;
+        width: auto;
+    }
+
+    #ustabel img {
+        width: 10vw;
+        margin: auto;
+        border-radius: 100%;
+    }
+
+    .speachBabel {
+        text-align: center;
+        margin: 1.5vh auto;
+        border-radius: 5vw;
+        width: 70%;
+        padding: 0.5vw 0vw;
+    }
+
+    #insideshow iframe {
+        height: 15vh;
+    }
+/*מיקומים - פוסטרים*/
+    .poster {
+        width: 12.75vw;
+        height: 17vw;
+        min-width: 75px;
+        min-height: 100px;
+        margin: 1vw 2vw;
+        background-repeat: no-repeat;
+        background-size: 101% auto;
+    }
+    .overBox {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .shortPlot {
+        height: 8.5vw;
+        overflow: scroll;
+        display: block;
+        margin-top: 1vw;
+        padding-inline: 0.5vw;
+    }
+    .overBox > h2 {
+        top: 0.7vw;
+        position: relative;
+    }
+    .poster:hover .overBox {
+        color: white;
+        backdrop-filter: blur(2px) brightness(0.3);
+    }
+    #titlePage {
+        padding: 20px 0px 20px 0px;
+    }
+    .actorsList {
+        margin: 0px auto;
+    }
+/*מיקומים - דף בית*/
+    #mainImg img {
+        width: 100%;
+        height: auto;
+        left: 0%;
+        position: absolute;
+    }
+    #mainImg div {
+        text-align: center;
+        margin-top: 75%;
+        z-index: 1;
+    }
+/*פוטר - מיקומים*/
+    footer {
+        z-index: 1;
+        position: relative;
+        text-align: center;
+        background-color: black;
+        padding: 1.5vh;
+        color: white;
+        margin-top: 2vh;
+    }
+    #homePage footer {
+        margin-top: 11%;
+    }
+    footer a {
+        color: white;
+        margin: 0vw 1vw;
+    }
+/*מיקומים - דף סדרה ספיפית*/
+    .generalInfo {
+        grid-area: generalInfo;
+    }
+    .longPlot {
+        grid-area: longPlot;
+        width: 65%;
+        position: relative;
+    }
+    .infoPoster {
+        grid-area: ourSongPoster;
+        height: 25vw;
+        width: auto;
+        border: 1px solid white;
+        margin-bottom: 1vw;
+    }
+    .generalInfo span, #siteMap h2 {
+        border-radius: 1vw;
+        padding: 0.5vh 0.5vw;
+    }
+    .generalInfo div::after {
+        margin: 0.5vw;
+        content: "|";
+    }
+/*מיקומים דף הודות*/
+    
+aside img {
+        width: 15vw;
+        margin: auto;
+    }
+    #breadCrumbs {
+        padding-bottom: 1vw;
+    }
+    #breadCrumbs li::after {
+        content: ">"
+    }
+    #breadCrumbs li:last-child::after {
+        content: "";
+    }
+    .tabelColAbout {
+        border-radius: 2vw;
+        padding: 1vw;
+    }
+/*מיקומים - נוספים*/
+    label, select, textarea, .sentButArea {
+        margin-bottom: 2vh;
+    }
+    textarea {
+        width: 50%;
+        height: 25%;
+    }
+    .sentButArea {
+        width: 15vw;
+    }
+    select {
+        color: black;
+    }
+    #PageMap {
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        gap: 1vw;
+    }
+    #PageMap li {
+        padding: 3vh 0vh;
+    }
+
+/*עכבר*/
+    .linkNotWork :hover, .readMoreBut:hover.linkNotWork {
+        cursor: not-allowed !important;
+    }
+
+/*צבעים וגדלים*/
+    #posterArea > div, iframe {
+        border: 1px solid white;
+    }
+    #hotColors .readMoreBut, #hotColors .generalInfo span, #hotColors .speachBabel, #hotColors .buToRead > div {
+        background-color: firebrick;
+    }
+    #yesColors .readMoreBut, #yesColors .generalInfo span, #yesColors .speachBabel, #yesColors .buToRead > div {
+        background-color: #009c9e;
+    }
+    #mixColors .readMoreBut, #siteMap h2 {
+        background-color: darkviolet;
+    }
+/*כפתורים - צבעים וגדלים */
+    .readMoreBut {
+        color: white;
+        margin: 0vh 0.5vh;
+        padding: 5%;
+        border-radius: 0.5vw;
+        text-decoration: none;
+        font-size: medium;
+        width: 70%;
+        text-align: center;
+    }
+    .readMoreBut:hover {
+        filter: brightness(1.3) grayscale(0.1);
+        color: black;
+    }
+/* סרגל עליון - צבעים וגדלים*/
+    .navTop > li:hover > a {
+        font-weight: bold;
+        font-size: large;
+        border-bottom: 1px solid white;
+    }
+    .navTop li a {
+        color: white;
+        text-decoration: none;
+    }
+    .navTop > li:first-child:hover > a {
+        border-bottom: 0px none white;
+    }
+    .innerNav li:hover a {
+        color: black;
+        background-color: white;
+    }
+/*גלילת טקסט - צבעים וגדלים*/
+    .poster ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+/*הגדרות של דיפסליים*/
+    .generalInfo div, #titlePage, .poster:hover .overBox, .readMoreBut ,#breadCrumbs li{
+        display: inline-block;
+    }
+    .infoTV {
+        display: grid;
+        grid-template-areas:
+            "ourSongPoster longPlot"
+            "ourSongPoster generalInfo";
+        border-bottom: 1px solid white;
+        gap: 1.5vw;
+    }
+    #posterArea {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    #mainImg, #ustabel {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1vw;
+    }
+    .innerNav, .overBox {
+        display: none;
+    }
+    .navTop > li:hover .innerNav, .navTop li a, .actorsList img, .topPersonalId img, #ustabel img, aside img, label, select, textarea, .sentButArea {
+        display: block;
+    }
+    .buToRead {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 0.5vw;
+    }
+    #PageMap,.actorsList {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        
+    }
+/* סרגל עליון - הגדרות של דיפסליים*/
+    .navTop {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        text-align: center
+    }
+
+
+/*תמונות ורקעים*/
+    #TheEight {
+        background-image: url("../Pics/posters/TheEightPosterV2.png");
+    }
+    #Alifim {
+        background-image: url("../Pics/posters/AlifimPoster.png");
+    }
+    #DaniHoliwood {
+        background-image: url("../Pics/posters/DaniHoliwoodPoster.png");
+    }
+    #Gaslis {
+        background-image: url("../Pics/posters/GaslisPoster.png");
+    }
+    #OurSong {
+        background-image: url("../Pics/posters/OurSongPoster.png");
+    }
+    #ProjectY {
+        background-image: url("../Pics/posters/ProjectYPoster.png");
+    }
+    #Split {
+        background-image: url("../Pics/posters/SplitPoster.png");
+    }
+    #TheDreamers {
+        background-image: url("../Pics/posters/TheDreamers.png");
+    }
+    #TheIsland {
+        background-image: url("../Pics/posters/TheIslandPoster v2.png")
+    }
+    #ThePolen {
+        background-image: url("../Pics/posters/ThePolenPoester.png");
+    }
+    #YesKidPoster{
+        background-image:url("../Pics/posters/PosterYesKid.png");
+    }
+    #HotKidPoster {
+        background-image: url("../Pics/posters/PosterHotKid.png");
+        background-position-y:center;
+    
+    }
+    #errorPage main {
+        background-image: url(../Pics/others/404BackImg.png);
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+        background-size: 50vw;
+    }
