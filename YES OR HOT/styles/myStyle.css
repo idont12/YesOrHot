@@ -60,7 +60,7 @@ html, body, div, select, span, a, input, textarea, object, iframe, h2, h3, h4, h
     h4{
         font-weight:bold;
         display:inline-block;
-        margin-bottom:0.5vh;
+        margin-bottom:1vh;
     }
     main {
         padding-top: 5vw;
