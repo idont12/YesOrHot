@@ -76,6 +76,9 @@ html, body, div, select, span, a, input, textarea, object, iframe, h2, h3, h4, h
     #miniMap li, .actorsList, .navTop, #PageMap, #PageMap li {
         list-style: none;
     }
+    #breadCrumbs.fullscreen {
+        margin-right: 10vw;
+    }
 /*מיקומים - סרגל ניווט עליון*/
     .navTop img {
         height: 25px;
