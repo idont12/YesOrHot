@@ -182,13 +182,89 @@ html, body, div, select, span, a, input, textarea, object, iframe, h2, h3, h4, h
     .actorsList {
         margin: 0px auto;
     }
+/*מיקומים - גלריה*/
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 100%;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 100%;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover, .numbertext {
+        background-color: indigo;
+}
+
+.numbertext {
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    border-radius: 0 0 0 1vw;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 0.5vh 0px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+    width:100%;
+}
+
+.active, .demo:hover {
+        opacity: 1;
+}
+
 /*מיקומים - דף בית*/
-    #mainImg img {
-        width: 100%;
-        height: auto;
-        left: 0%;
-        position: absolute;
-    }
+#mainImg img {
+    width: 100%;
+    height: auto;
+    left: 0%;
+    position: absolute;
+}
     #mainImg div {
         text-align: center;
         margin-top: 75%;
@@ -350,11 +426,11 @@ aside img {
         grid-template-columns: auto auto auto;
         justify-content: center;
     }
-    #mainImg, #ustabel {
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 1vw;
-    }
+#mainImg, #ustabel, #seporateTwo {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vw;
+}
     .innerNav, .overBox {
         display: none;
     }
