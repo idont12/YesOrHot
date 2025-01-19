@@ -32,7 +32,6 @@
   <ul>
     <li>Explore iconic shows exclusive to "Hot" or "Yes".</li>
     <li>Discover shared programs that united all TV fans.</li>
-    <li>Nostalgic design to bring back childhood memories.</li>
   </ul>
   
   <hr>
@@ -50,7 +49,6 @@
   <ul>
     <li><strong>HTML</strong>: Structured the website content.</li>
     <li><strong>CSS</strong>: Styled the design for a nostalgic yet clean look.</li>
-    <li><strong>JavaScript</strong>: Added interactivity to enhance user experience.</li>
   </ul>
   
   <hr>
