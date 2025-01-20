@@ -1,5 +1,9 @@
-
-  <h1>Yes or Hot: Explore Your Childhood</h1>
+<h1>Yes or Hot: Explore Your Childhood</h1>
+    <p>
+    <img src="https://img.shields.io/badge/HTML-web-2ea44f?logo=html5&logoColor=white" alt="HTML Badge"> 
+    <img src="https://img.shields.io/badge/Css-Style-ffe600?logo=css" alt="Css Badge">
+    <img src="https://img.shields.io/badge/JS-code-orange?logo=javascript&logoColor=white" alt="JS Badge">
+  </p>
   <p>
     Are you ready to take a side in one of the most important questions for any Israeli?  
     <br>
